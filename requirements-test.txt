@@ -1,0 +1,6 @@
+pylint
+pylint-junit
+pytest
+pytest-cov
+pytest-django
+pytest-xdist[psutil]
