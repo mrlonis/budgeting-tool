@@ -3,4 +3,5 @@ pylint-junit
 pytest
 pytest-cov
 pytest-django
+pytest-watch
 pytest-xdist[psutil]

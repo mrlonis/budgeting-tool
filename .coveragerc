@@ -1,0 +1,34 @@
+[run]
+branch = True
+include =
+    ./mysite/*
+omit =
+    ./.idea/*
+    ./.pytest_cache/*
+    ./.vscode/*
+    ./alembic/*
+    ./cypress/*
+    ./dist/*
+    ./htmlcov/*
+    ./junit/*
+    ./node_modules/*
+    ./pipeline/*
+    ./public/*
+    ./src/*
+    ./scripts/*
+    ./static/*
+    ./tests/*
+    ./utility-repo-scripts/*
+    */__pycache__/*
+    ./setup.py
+[report]
+precision = 2
+show_missing = True
+skip_empty = True
+sort = Name
+[html]
+directory = ./htmlcov
+skip_empty = True
+title = budgeting-tool Coverage Report
+[xml]
+output = ./junit/coverage.xml
