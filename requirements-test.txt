@@ -10,13 +10,13 @@ attrs==22.2.0
     # via pytest
 colorama==0.4.6
     # via pytest-watch
-coverage==7.2.1
+coverage==7.2.2
     # via pytest-cov
 dill==0.3.6
     # via pylint
 docopt==0.6.2
     # via pytest-watch
-exceptiongroup==1.1.0
+exceptiongroup==1.1.1
     # via pytest
 execnet==1.9.0
     # via pytest-xdist
@@ -32,7 +32,7 @@ mccabe==0.7.0
     # via pylint
 packaging==23.0
     # via pytest
-platformdirs==3.1.0
+platformdirs==3.1.1
     # via pylint
 pluggy==1.0.0
     # via pytest
@@ -57,7 +57,7 @@ pytest-django==4.5.2
     # via -r requirements-test.in
 pytest-watch==4.2.0
     # via -r requirements-test.in
-pytest-xdist==3.2.0
+pytest-xdist==3.2.1
     # via -r requirements-test.in
 six==1.16.0
     # via junit-xml-2
@@ -70,7 +70,7 @@ tomlkit==0.11.6
     # via pylint
 typing-extensions==4.5.0
     # via astroid
-watchdog==2.3.1
+watchdog==3.0.0
     # via pytest-watch
 wrapt==1.15.0
     # via astroid

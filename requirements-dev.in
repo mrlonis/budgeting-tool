@@ -1,6 +1,9 @@
 -c requirements.txt
 -c requirements-test.txt
 black
+configupdater
 isort
 pip-tools
 pre-commit
+ruamel.yaml
+tomlkit
