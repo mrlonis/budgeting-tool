@@ -1,6 +1,7 @@
 {
   "name": "budgeting-tool",
   "version": "0.0.0",
+  "license": "Unlicense",
   "private": true,
   "scripts": {
     "dev": "vite",
