@@ -18,9 +18,9 @@ configupdater==3.1.1
     # via -r requirements-dev.in
 distlib==0.3.6
     # via virtualenv
-filelock==3.10.0
+filelock==3.10.4
     # via virtualenv
-identify==2.5.21
+identify==2.5.22
     # via pre-commit
 isort==5.12.0
     # via -r requirements-dev.in
