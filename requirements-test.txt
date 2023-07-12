@@ -4,21 +4,19 @@
 #
 #    pip-compile --resolver=backtracking --strip-extras requirements-test.in
 #
-astroid==2.15.1
+astroid==2.15.6
     # via pylint
-attrs==22.2.0
-    # via pytest
 colorama==0.4.6
     # via pytest-watch
-coverage==7.2.2
+coverage==7.2.7
     # via pytest-cov
 dill==0.3.6
     # via pylint
 docopt==0.6.2
     # via pytest-watch
-exceptiongroup==1.1.1
+exceptiongroup==1.1.2
     # via pytest
-execnet==1.9.0
+execnet==2.0.2
     # via pytest-xdist
 iniconfig==2.0.0
     # via pytest
@@ -30,34 +28,34 @@ lazy-object-proxy==1.9.0
     # via astroid
 mccabe==0.7.0
     # via pylint
-packaging==23.0
+packaging==23.1
     # via pytest
-platformdirs==3.2.0
+platformdirs==3.8.1
     # via pylint
-pluggy==1.0.0
+pluggy==1.2.0
     # via pytest
-psutil==5.9.4
+psutil==5.9.5
     # via pytest-xdist
-pylint==2.17.1
+pylint==2.17.4
     # via
     #   -r requirements-test.in
     #   pylint-junit
 pylint-junit==0.3.2
     # via -r requirements-test.in
-pytest==7.2.2
+pytest==7.4.0
     # via
     #   -r requirements-test.in
     #   pytest-cov
     #   pytest-django
     #   pytest-watch
     #   pytest-xdist
-pytest-cov==4.0.0
+pytest-cov==4.1.0
     # via -r requirements-test.in
 pytest-django==4.5.2
     # via -r requirements-test.in
 pytest-watch==4.2.0
     # via -r requirements-test.in
-pytest-xdist==3.2.1
+pytest-xdist==3.3.1
     # via -r requirements-test.in
 six==1.16.0
     # via junit-xml-2
@@ -66,10 +64,12 @@ tomli==2.0.1
     #   coverage
     #   pylint
     #   pytest
-tomlkit==0.11.7
+tomlkit==0.11.8
     # via pylint
-typing-extensions==4.5.0
-    # via astroid
+typing-extensions==4.7.1
+    # via
+    #   -c requirements.txt
+    #   astroid
 watchdog==3.0.0
     # via pytest-watch
 wrapt==1.15.0
