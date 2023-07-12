@@ -3,6 +3,7 @@
 
 module.exports = {
   root: true,
+  ignorePatterns: ['cypress.config.ts', 'cypress/support/commands.ts', 'cypress/support/e2e.ts', 'vite.config.ts'],
   extends: [],
   overrides: [
     {
