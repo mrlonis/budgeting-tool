@@ -6,21 +6,21 @@
 #
 black==23.7.0
     # via -r requirements-dev.in
-build==0.10.0
+build==1.0.3
     # via pip-tools
-cfgv==3.3.1
+cfgv==3.4.0
     # via pre-commit
-click==8.1.4
+click==8.1.7
     # via
     #   black
     #   pip-tools
 configupdater==3.1.1
     # via -r requirements-dev.in
-distlib==0.3.6
+distlib==0.3.7
     # via virtualenv
-filelock==3.12.2
+filelock==3.12.3
     # via virtualenv
-identify==2.5.24
+identify==2.5.27
     # via pre-commit
 isort==5.12.0
     # via -r requirements-dev.in
@@ -33,20 +33,20 @@ packaging==23.1
     #   -c requirements-test.txt
     #   black
     #   build
-pathspec==0.11.1
+pathspec==0.11.2
     # via black
-pip-tools==6.14.0
+pip-tools==7.3.0
     # via -r requirements-dev.in
-platformdirs==3.8.1
+platformdirs==3.10.0
     # via
     #   -c requirements-test.txt
     #   black
     #   virtualenv
-pre-commit==3.3.3
+pre-commit==3.4.0
     # via -r requirements-dev.in
 pyproject-hooks==1.0.0
     # via build
-pyyaml==6.0
+pyyaml==6.0.1
     # via pre-commit
 ruamel-yaml==0.17.32
     # via -r requirements-dev.in
@@ -59,11 +59,15 @@ tomli==2.0.1
     #   build
     #   pip-tools
     #   pyproject-hooks
-tomlkit==0.11.8
+tomlkit==0.12.1
     # via -r requirements-dev.in
-virtualenv==20.23.1
+typing-extensions==4.7.1
+    # via
+    #   -c requirements-test.txt
+    #   filelock
+virtualenv==20.24.4
     # via pre-commit
-wheel==0.40.0
+wheel==0.41.2
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
