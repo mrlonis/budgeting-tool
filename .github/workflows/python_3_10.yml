@@ -24,7 +24,7 @@ jobs:
           cache: pip
 
       - name: Install Dependencies
-        run: pip-sync requirements-test.txt requirements.txt
+        run: pip-sync requirements-dev.txt requirements-test.txt requirements.txt
         if: steps.cache_dependencies.outputs.cache-hit != 'true'
 
       - name: Flake8
