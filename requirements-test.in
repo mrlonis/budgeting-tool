@@ -1,4 +1,5 @@
 -c requirements.txt
+flake8
 pylint
 pylint-junit
 pytest
