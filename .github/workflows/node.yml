@@ -13,14 +13,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
+          cache: 'npm'
 
-      - uses: cypress-io/github-action@v6
-        with:
-          browser: chrome
-          start: npm run preview
+      - run: npm ci
 
       - run: npm run lint
 
       - run: npm run test:unit
 
-      - run: npm run build
+      - uses: cypress-io/github-action@v6
+        with:
+          install: false
+          browser: chrome
+          build: npm run build
+          start: npm run preview
