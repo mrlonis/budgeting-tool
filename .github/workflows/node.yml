@@ -17,13 +17,10 @@ jobs:
       - uses: cypress-io/github-action@v6
         with:
           browser: chrome
-
-      - run: npm ci
+          start: npm run preview
 
       - run: npm run lint
 
       - run: npm run test:unit
-
-      - run: npm run test:e2e
 
       - run: npm run build
