@@ -23,9 +23,11 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: pip
 
+      - name: Install pip-tools
+        run: pip install pip-tools
+
       - name: Install Dependencies
-        run: pip-sync requirements-dev.txt requirements-test.txt requirements.txt
-        if: steps.cache_dependencies.outputs.cache-hit != 'true'
+        run: pip-sync requirements-test.txt requirements.txt
 
       - name: Flake8
         run: flake8 ${{ env.LINT_PATHS }}
