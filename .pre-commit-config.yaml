@@ -18,12 +18,12 @@ repos:
         types: [file]
         additional_dependencies:
           - '@rushstack/eslint-patch@^1.2.0'
-          - '@vue/eslint-config-prettier@^7.1.0'
-          - '@vue/eslint-config-typescript@^11.0.2'
+          - '@vue/eslint-config-prettier@^8.0.0'
+          - '@vue/eslint-config-typescript@^12.0.0'
           - eslint@^8.35.0
           - eslint-plugin-cypress@^2.12.1
           - eslint-plugin-vue@^9.9.0
-          - prettier@^2.8.4
+          - prettier@^3.0.3
   - repo: https://github.com/pycqa/isort
     rev: 5.12.0
     hooks:
