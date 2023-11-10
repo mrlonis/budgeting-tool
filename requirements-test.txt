@@ -9,7 +9,9 @@ astroid==3.0.1
 colorama==0.4.6
     # via pytest-watch
 coverage==7.3.2
-    # via pytest-cov
+    # via
+    #   coverage
+    #   pytest-cov
 dill==0.3.7
     # via pylint
 docopt==0.6.2
