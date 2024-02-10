@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements-dev.in
 #
-black==23.11.0
+black==24.1.1
     # via -r requirements-dev.in
 build==1.0.3
     # via pip-tools
@@ -14,15 +14,15 @@ click==8.1.7
     # via
     #   black
     #   pip-tools
-configupdater==3.1.1
+configupdater==3.2
     # via -r requirements-dev.in
-distlib==0.3.7
+distlib==0.3.8
     # via virtualenv
 filelock==3.13.1
     # via virtualenv
-identify==2.5.31
+identify==2.5.33
     # via pre-commit
-isort==5.12.0
+isort==5.13.2
     # via
     #   -c requirements-test.txt
     #   -r requirements-dev.in
@@ -35,22 +35,22 @@ packaging==23.2
     #   -c requirements-test.txt
     #   black
     #   build
-pathspec==0.11.2
+pathspec==0.12.1
     # via black
 pip-tools==7.3.0
     # via -r requirements-dev.in
-platformdirs==3.11.0
+platformdirs==4.2.0
     # via
     #   -c requirements-test.txt
     #   black
     #   virtualenv
-pre-commit==3.5.0
+pre-commit==3.6.0
     # via -r requirements-dev.in
 pyproject-hooks==1.0.0
     # via build
 pyyaml==6.0.1
     # via pre-commit
-ruamel-yaml==0.18.5
+ruamel-yaml==0.18.6
     # via -r requirements-dev.in
 ruamel-yaml-clib==0.2.8
     # via ruamel-yaml
@@ -61,18 +61,18 @@ tomli==2.0.1
     #   build
     #   pip-tools
     #   pyproject-hooks
-tomlkit==0.12.2
+tomlkit==0.12.3
     # via
     #   -c requirements-test.txt
     #   -r requirements-dev.in
-typing-extensions==4.8.0
+typing-extensions==4.9.0
     # via
     #   -c requirements-test.txt
     #   -c requirements.txt
     #   black
-virtualenv==20.24.6
+virtualenv==20.25.0
     # via pre-commit
-wheel==0.41.3
+wheel==0.42.0
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
