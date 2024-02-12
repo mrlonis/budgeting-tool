@@ -11,7 +11,7 @@ repos:
       - id: black
         args: [--line-length=125]
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: v9.0.0-alpha.2
+    rev: v9.0.0-beta.0
     hooks:
       - id: eslint
         files: \.[jt]sx?$|\.vue$ # *.js, *.jsx, *.ts, *.tsx and *.vue

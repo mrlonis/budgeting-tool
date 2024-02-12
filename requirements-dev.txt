@@ -20,7 +20,7 @@ distlib==0.3.8
     # via virtualenv
 filelock==3.13.1
     # via virtualenv
-identify==2.5.33
+identify==2.5.34
     # via pre-commit
 isort==5.13.2
     # via
@@ -44,7 +44,7 @@ platformdirs==4.2.0
     #   -c requirements-test.txt
     #   black
     #   virtualenv
-pre-commit==3.6.0
+pre-commit==3.6.1
     # via -r requirements-dev.in
 pyproject-hooks==1.0.0
     # via build
