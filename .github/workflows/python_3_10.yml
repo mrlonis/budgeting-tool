@@ -3,7 +3,7 @@ name: Python 3.10
 on: [push, pull_request]
 
 env:
-  PYTHON_VERSION: '3.10'
+  PYTHON_VERSION: "3.10"
   LINT_PATHS: >
     manage.py
     budgeting_tool
@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: pip
