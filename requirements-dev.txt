@@ -4,9 +4,9 @@
 #
 #    pip-compile requirements-dev.in
 #
-black==24.3.0
+black==24.4.2
     # via -r requirements-dev.in
-build==1.1.1
+build==1.2.1
     # via pip-tools
 cfgv==3.4.0
     # via pre-commit
@@ -18,9 +18,9 @@ configupdater==3.2
     # via -r requirements-dev.in
 distlib==0.3.8
     # via virtualenv
-filelock==3.13.1
+filelock==3.14.0
     # via virtualenv
-identify==2.5.35
+identify==2.5.36
     # via pre-commit
 isort==5.13.2
     # via
@@ -28,7 +28,7 @@ isort==5.13.2
     #   -r requirements-dev.in
 mypy-extensions==1.0.0
     # via black
-nodeenv==1.8.0
+nodeenv==1.9.0
     # via pre-commit
 packaging==24.0
     # via
@@ -39,14 +39,14 @@ pathspec==0.12.1
     # via black
 pip-tools==7.4.1
     # via -r requirements-dev.in
-platformdirs==4.2.0
+platformdirs==4.2.2
     # via
     #   -c requirements-test.txt
     #   black
     #   virtualenv
-pre-commit==3.6.2
+pre-commit==3.7.1
     # via -r requirements-dev.in
-pyproject-hooks==1.0.0
+pyproject-hooks==1.1.0
     # via
     #   build
     #   pip-tools
@@ -62,17 +62,16 @@ tomli==2.0.1
     #   black
     #   build
     #   pip-tools
-    #   pyproject-hooks
-tomlkit==0.12.4
+tomlkit==0.12.5
     # via
     #   -c requirements-test.txt
     #   -r requirements-dev.in
-typing-extensions==4.10.0
+typing-extensions==4.12.1
     # via
     #   -c requirements-test.txt
     #   -c requirements.txt
     #   black
-virtualenv==20.25.1
+virtualenv==20.26.2
     # via pre-commit
 wheel==0.43.0
     # via pip-tools
