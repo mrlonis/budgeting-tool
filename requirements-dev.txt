@@ -60,7 +60,7 @@ tomlkit==0.12.5
     # via
     #   -c requirements-test.txt
     #   -r requirements-dev.in
-virtualenv==20.26.2
+virtualenv==20.26.3
     # via pre-commit
 wheel==0.43.0
     # via pip-tools
