@@ -13,7 +13,11 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    allow:
+      - dependency-type: "all"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
+    allow:
+      - dependency-type: "all"
