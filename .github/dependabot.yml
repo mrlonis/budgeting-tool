@@ -23,6 +23,28 @@ updates:
     allow:
       - dependency-type: "all"
     open-pull-requests-limit: 99
+    groups:
+      babel:
+        applies-to: version-updates
+        patterns:
+          - "@babel*"
+        update-types:
+          - "minor"
+          - "patch"
+      minor-and-patch:
+        applies-to: security-updates
+        patterns:
+          - "@babel*"
+        update-types:
+          - "patch"
+          - "minor"
+    ignore:
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "eslint"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
