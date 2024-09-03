@@ -55,7 +55,7 @@ pytest==8.3.2
     #   pytest-xdist
 pytest-cov==5.0.0
     # via -r requirements-test.in
-pytest-django==4.8.0
+pytest-django==4.9.0
     # via -r requirements-test.in
 pytest-watch==4.2.0
     # via -r requirements-test.in
@@ -65,5 +65,5 @@ six==1.16.0
     # via junit-xml-2
 tomlkit==0.12.5
     # via pylint
-watchdog==5.0.0
+watchdog==5.0.1
     # via pytest-watch
