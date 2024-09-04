@@ -65,5 +65,5 @@ six==1.16.0
     # via junit-xml-2
 tomlkit==0.12.5
     # via pylint
-watchdog==5.0.1
+watchdog==5.0.2
     # via pytest-watch
