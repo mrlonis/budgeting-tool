@@ -18,7 +18,7 @@ configupdater==3.2
     # via -r requirements-dev.in
 distlib==0.3.8
     # via virtualenv
-filelock==3.16.0
+filelock==3.16.1
     # via virtualenv
 identify==2.6.1
     # via pre-commit
@@ -60,7 +60,7 @@ tomlkit==0.12.5
     # via
     #   -c requirements-test.txt
     #   -r requirements-dev.in
-virtualenv==20.26.4
+virtualenv==20.26.5
     # via pre-commit
 wheel==0.44.0
     # via pip-tools
