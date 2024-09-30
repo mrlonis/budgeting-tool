@@ -10,7 +10,7 @@ colorama==0.4.6
     # via pytest-watch
 coverage==7.5.3
     # via pytest-cov
-dill==0.3.8
+dill==0.3.9
     # via pylint
 docopt==0.6.2
     # via pytest-watch
@@ -65,5 +65,5 @@ six==1.16.0
     # via junit-xml-2
 tomlkit==0.12.5
     # via pylint
-watchdog==5.0.2
+watchdog==5.0.3
     # via pytest-watch
