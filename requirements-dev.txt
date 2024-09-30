@@ -46,7 +46,7 @@ platformdirs==4.2.2
     #   virtualenv
 pre-commit==3.8.0
     # via -r requirements-dev.in
-pyproject-hooks==1.1.0
+pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
@@ -60,7 +60,7 @@ tomlkit==0.12.5
     # via
     #   -c requirements-test.txt
     #   -r requirements-dev.in
-virtualenv==20.26.5
+virtualenv==20.26.6
     # via pre-commit
 wheel==0.44.0
     # via pip-tools
