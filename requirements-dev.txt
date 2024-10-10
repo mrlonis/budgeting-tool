@@ -16,7 +16,7 @@ click==8.1.7
     #   pip-tools
 configupdater==3.2
     # via -r requirements-dev.in
-distlib==0.3.8
+distlib==0.3.9
     # via virtualenv
 filelock==3.16.1
     # via virtualenv
