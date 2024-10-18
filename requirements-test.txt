@@ -34,7 +34,7 @@ platformdirs==4.2.2
     # via pylint
 pluggy==1.5.0
     # via pytest
-psutil==6.0.0
+psutil==6.1.0
     # via pytest-xdist
 pycodestyle==2.12.1
     # via flake8
