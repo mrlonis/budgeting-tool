@@ -54,7 +54,7 @@ pyyaml==6.0.2
     # via pre-commit
 ruamel-yaml==0.18.6
     # via -r requirements-dev.in
-ruamel-yaml-clib==0.2.8
+ruamel-yaml-clib==0.2.12
     # via ruamel-yaml
 tomlkit==0.12.5
     # via
